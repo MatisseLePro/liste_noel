@@ -97,6 +97,10 @@ details p, ul, li{
     
 }
 
+li p{
+    padding: 0;
+}
+
 
 
 @media (max-width:1030px){
