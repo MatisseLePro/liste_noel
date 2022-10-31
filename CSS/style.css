@@ -22,7 +22,8 @@ h1{
 }
 
 body{
-    font-family: 'Poppins';
+	font-family: 'Poppins';
+	background: #323233;
 }
 
 .section1{
@@ -44,13 +45,15 @@ details  .summary{
 }
 
 details{
-    width: 27%;
-    background-color: #f6f6f6;
-    cursor: crosshair;
-    border-radius: 5px;
-    margin:30px;
-    margin-bottom: 0;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.301);
+	width: 27%;
+	background-color: #1e1e1e;
+	cursor: crosshair;
+	border-radius: 5px;
+	margin:30px;
+	margin-bottom: 0;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.301);
+	color: white;
+	font-weight: bold;
 }
 
 li img{
@@ -58,20 +61,21 @@ li img{
 }
 
 summary{
-    padding: 25px;
-    width: 100%;
-    height: 100%;
-    font-size: 25px;
-    display: flex;
-    list-style: none;
-    user-select: none;
-    align-items: center;
-    cursor: pointer;
+    	padding: 25px;
+    	width: 100%;
+    	height: 100%;
+    	font-size: 25px;
+    	display: flex;
+    	list-style: none;
+    	user-select: none;
+    	align-items: center;
+    	cursor: pointer;
+	background-color: #252526;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 summary img{
